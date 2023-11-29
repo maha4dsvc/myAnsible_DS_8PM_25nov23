@@ -19,6 +19,6 @@
       force_basic_auth: yes
 
   - name: copy index file into node side
-    templete:
+    template:
        src: myindex.j2
        dest: /var/www/html/index.html
